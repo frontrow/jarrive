@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1697E73516FB6BEE002FEB16 /* FriendTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1697E73416FB6BEE002FEB16 /* FriendTableViewController.m */; };
 		637FE99C16AB4BB2002C46ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637FE99B16AB4BB2002C46ED /* UIKit.framework */; };
 		637FE99E16AB4BB2002C46ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637FE99D16AB4BB2002C46ED /* Foundation.framework */; };
 		637FE9A016AB4BB2002C46ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637FE99F16AB4BB2002C46ED /* CoreGraphics.framework */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1697E73316FB6BEE002FEB16 /* FriendTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendTableViewController.h; sourceTree = "<group>"; };
+		1697E73416FB6BEE002FEB16 /* FriendTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendTableViewController.m; sourceTree = "<group>"; };
 		637FE99716AB4BB2002C46ED /* Jarrive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jarrive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		637FE99B16AB4BB2002C46ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		637FE99D16AB4BB2002C46ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -81,6 +84,8 @@
 				637FE9AA16AB4BB2002C46ED /* AppDelegate.h */,
 				637FE9AB16AB4BB2002C46ED /* AppDelegate.m */,
 				637FE9A216AB4BB2002C46ED /* Supporting Files */,
+				1697E73316FB6BEE002FEB16 /* FriendTableViewController.h */,
+				1697E73416FB6BEE002FEB16 /* FriendTableViewController.m */,
 			);
 			path = Jarrive;
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 			files = (
 				637FE9A816AB4BB2002C46ED /* main.m in Sources */,
 				637FE9AC16AB4BB2002C46ED /* AppDelegate.m in Sources */,
+				1697E73516FB6BEE002FEB16 /* FriendTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +280,7 @@
 				637FE9B716AB4BB2002C46ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
