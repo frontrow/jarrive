@@ -10,7 +10,7 @@
 #import "Friend.h"
 #import "FriendLocation.h"
 @interface FriendLocationListViewController ()
-
+-(void)showNewLocation;
 @end
 
 @implementation FriendLocationListViewController
@@ -23,6 +23,19 @@
     return self;
 }
 
+-(void)loadView{
+    [super loadView];
+    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
+                                                                               target:self
+                                                                               action:@selector(showNewLocation)];
+    [self.navigationItem setRightBarButtonItem:addButton];
+    
+}
+
+-(void)showNewLocation{
+    NSLog(@"Hi!");
+}
+
 #pragma mark - Table view data source
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
@@ -31,7 +44,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     static NSString *kCellIdentifier = @"Location Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kCellIdentifier forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kCellIdentifier];
     if(!cell){
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:kCellIdentifier];
     }

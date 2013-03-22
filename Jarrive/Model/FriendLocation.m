@@ -13,11 +13,13 @@
 @synthesize name = _name;
 @synthesize coordinate = _coordinate;
 
-#warning incomplete method below
 -(id)initWithName:(NSString *)aName andCoordinate:(CLLocationCoordinate2D)aCoordinate {
-/*    self = [super init];
-    //stuff
+    self = [super init];
+    if(self){
+        _name = aName;
+        _coordinate = aCoordinate;
+    }
     
-    return self; */
+    return self;
 }
 @end
