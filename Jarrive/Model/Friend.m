@@ -19,4 +19,8 @@
     return self;
 }
 
+-(void)addLocation:(FriendLocation *)location{
+    [_locations addObject:location];
+}
+
 @end

@@ -31,4 +31,8 @@ static FriendManager *__instance;
     return __instance;
 }
 
+-(void)addFriend:(Friend *)aFriend {
+    [_friends addObject:aFriend];
+}
+
 @end
