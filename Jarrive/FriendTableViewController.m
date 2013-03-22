@@ -32,6 +32,7 @@
     return self;
 }
 
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -55,9 +56,7 @@
 {
 #warning Potentially incomplete method implementation.
     // Return the number of sections.
-    if(tableView){
-        return _friends.count;//number of sections should corrospond to number of friends, right?
-    }
+    
     return 0;
 }
 
@@ -65,6 +64,9 @@
 {
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
+    if(tableView){
+        return _friends.count;//number of rows* should corrospond to number of friends, right?
+    }
     return 0;
 }
 
