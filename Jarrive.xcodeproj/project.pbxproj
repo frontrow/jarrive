@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		633D482C16FCDC4E00CC71B0 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633D482B16FCDC4E00CC71B0 /* FacebookSDK.framework */; };
-		633D483016FCDCCA00CC71B0 /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 633D482F16FCDCCA00CC71B0 /* FacebookSDKResources.bundle */; };
-		633D483216FCDCDF00CC71B0 /* FBUserSettingsViewResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 633D483116FCDCDF00CC71B0 /* FBUserSettingsViewResources.bundle */; };
 		633D483616FCDD2700CC71B0 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633D483316FCDD2700CC71B0 /* Accounts.framework */; };
 		633D483716FCDD2700CC71B0 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633D483416FCDD2700CC71B0 /* AdSupport.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		633D483816FCDD2700CC71B0 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633D483516FCDD2700CC71B0 /* Social.framework */; };
@@ -29,12 +26,12 @@
 		D368483016FCD46D00D0410F /* FriendManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D368482F16FCD46D00D0410F /* FriendManager.m */; };
 		D368483316FCDA9E00D0410F /* ArrivalManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D368483216FCDA9E00D0410F /* ArrivalManager.m */; };
 		D368483716FCDE7900D0410F /* FriendLocationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D368483616FCDE7900D0410F /* FriendLocationListViewController.m */; };
+		D368483B16FCE0CA00D0410F /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D368483816FCE0CA00D0410F /* FacebookSDK.framework */; };
+		D368483C16FCE0CB00D0410F /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D368483916FCE0CA00D0410F /* FacebookSDKResources.bundle */; };
+		D368483D16FCE0CB00D0410F /* FBUserSettingsViewResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D368483A16FCE0CA00D0410F /* FBUserSettingsViewResources.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		633D482B16FCDC4E00CC71B0 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
-		633D482F16FCDCCA00CC71B0 /* FacebookSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FacebookSDKResources.bundle; sourceTree = "<group>"; };
-		633D483116FCDCDF00CC71B0 /* FBUserSettingsViewResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBUserSettingsViewResources.bundle; sourceTree = "<group>"; };
 		633D483316FCDD2700CC71B0 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		633D483416FCDD2700CC71B0 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		633D483516FCDD2700CC71B0 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
@@ -64,6 +61,9 @@
 		D368483216FCDA9E00D0410F /* ArrivalManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArrivalManager.m; path = Jarrive/Arrival/ArrivalManager.m; sourceTree = "<group>"; };
 		D368483516FCDE7900D0410F /* FriendLocationListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FriendLocationListViewController.h; path = Jarrive/ViewControllers/FriendLocationListViewController.h; sourceTree = "<group>"; };
 		D368483616FCDE7900D0410F /* FriendLocationListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FriendLocationListViewController.m; path = Jarrive/ViewControllers/FriendLocationListViewController.m; sourceTree = "<group>"; };
+		D368483816FCE0CA00D0410F /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = Frameworks/FacebookSDK.framework; sourceTree = "<group>"; };
+		D368483916FCE0CA00D0410F /* FacebookSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FacebookSDKResources.bundle; path = Frameworks/FacebookSDKResources.bundle; sourceTree = "<group>"; };
+		D368483A16FCE0CA00D0410F /* FBUserSettingsViewResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FBUserSettingsViewResources.bundle; path = Frameworks/FBUserSettingsViewResources.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,7 @@
 				637FE99C16AB4BB2002C46ED /* UIKit.framework in Frameworks */,
 				637FE99E16AB4BB2002C46ED /* Foundation.framework in Frameworks */,
 				637FE9A016AB4BB2002C46ED /* CoreGraphics.framework in Frameworks */,
-				633D482C16FCDC4E00CC71B0 /* FacebookSDK.framework in Frameworks */,
+				D368483B16FCE0CA00D0410F /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,9 +88,6 @@
 		637FE98C16AB4BB2002C46ED = {
 			isa = PBXGroup;
 			children = (
-				633D483316FCDD2700CC71B0 /* Accounts.framework */,
-				633D483416FCDD2700CC71B0 /* AdSupport.framework */,
-				633D483516FCDD2700CC71B0 /* Social.framework */,
 				637FE9A116AB4BB2002C46ED /* Jarrive */,
 				637FE99A16AB4BB2002C46ED /* Frameworks */,
 				637FE99816AB4BB2002C46ED /* Products */,
@@ -108,9 +105,12 @@
 		637FE99A16AB4BB2002C46ED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				633D483116FCDCDF00CC71B0 /* FBUserSettingsViewResources.bundle */,
-				633D482F16FCDCCA00CC71B0 /* FacebookSDKResources.bundle */,
-				633D482B16FCDC4E00CC71B0 /* FacebookSDK.framework */,
+				D368483816FCE0CA00D0410F /* FacebookSDK.framework */,
+				D368483916FCE0CA00D0410F /* FacebookSDKResources.bundle */,
+				D368483A16FCE0CA00D0410F /* FBUserSettingsViewResources.bundle */,
+				633D483316FCDD2700CC71B0 /* Accounts.framework */,
+				633D483416FCDD2700CC71B0 /* AdSupport.framework */,
+				633D483516FCDD2700CC71B0 /* Social.framework */,
 				D368482916FCD3A200D0410F /* CoreLocation.framework */,
 				637FE99B16AB4BB2002C46ED /* UIKit.framework */,
 				637FE99D16AB4BB2002C46ED /* Foundation.framework */,
@@ -236,8 +236,8 @@
 				637FE9AE16AB4BB2002C46ED /* Default.png in Resources */,
 				637FE9B016AB4BB2002C46ED /* Default@2x.png in Resources */,
 				637FE9B216AB4BB2002C46ED /* Default-568h@2x.png in Resources */,
-				633D483016FCDCCA00CC71B0 /* FacebookSDKResources.bundle in Resources */,
-				633D483216FCDCDF00CC71B0 /* FBUserSettingsViewResources.bundle in Resources */,
+				D368483C16FCE0CB00D0410F /* FacebookSDKResources.bundle in Resources */,
+				D368483D16FCE0CB00D0410F /* FBUserSettingsViewResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +329,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Jarrive/Jarrive-Prefix.pch";
@@ -344,6 +345,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Jarrive/Jarrive-Prefix.pch";
