@@ -7,14 +7,14 @@
 //
 
 #import "AppDelegate.h"
-#import "FriendTableViewController.h"
+#import "FriendListViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    FriendTableViewController *ftvc = [[FriendTableViewController alloc] initWithStyle:UITableViewStylePlain];
+    FriendListViewController *ftvc = [[FriendListViewController alloc] initWithStyle:UITableViewStylePlain];
     self.navigationController = [[UINavigationController alloc] initWithRootViewController:ftvc];
     [self.window setRootViewController:self.navigationController];
     self.window.backgroundColor = [UIColor whiteColor];

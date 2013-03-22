@@ -22,12 +22,13 @@
 		637FE9AE16AB4BB2002C46ED /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 637FE9AD16AB4BB2002C46ED /* Default.png */; };
 		637FE9B016AB4BB2002C46ED /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 637FE9AF16AB4BB2002C46ED /* Default@2x.png */; };
 		637FE9B216AB4BB2002C46ED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 637FE9B116AB4BB2002C46ED /* Default-568h@2x.png */; };
-		D368482316FCCAC500D0410F /* FriendTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D368482216FCCAC500D0410F /* FriendTableViewController.m */; };
+		D368482316FCCAC500D0410F /* FriendListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D368482216FCCAC500D0410F /* FriendListViewController.m */; };
 		D368482816FCD32D00D0410F /* FriendLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = D368482716FCD32D00D0410F /* FriendLocation.m */; };
 		D368482A16FCD3A200D0410F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D368482916FCD3A200D0410F /* CoreLocation.framework */; };
 		D368482D16FCD3D800D0410F /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = D368482C16FCD3D800D0410F /* Friend.m */; };
 		D368483016FCD46D00D0410F /* FriendManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D368482F16FCD46D00D0410F /* FriendManager.m */; };
 		D368483316FCDA9E00D0410F /* ArrivalManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D368483216FCDA9E00D0410F /* ArrivalManager.m */; };
+		D368483716FCDE7900D0410F /* FriendLocationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D368483616FCDE7900D0410F /* FriendLocationListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,8 +51,8 @@
 		637FE9AD16AB4BB2002C46ED /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		637FE9AF16AB4BB2002C46ED /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		637FE9B116AB4BB2002C46ED /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		D368482116FCCAC500D0410F /* FriendTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FriendTableViewController.h; path = Jarrive/ViewControllers/FriendTableViewController.h; sourceTree = "<group>"; };
-		D368482216FCCAC500D0410F /* FriendTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FriendTableViewController.m; path = Jarrive/ViewControllers/FriendTableViewController.m; sourceTree = "<group>"; };
+		D368482116FCCAC500D0410F /* FriendListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FriendListViewController.h; path = Jarrive/ViewControllers/FriendListViewController.h; sourceTree = "<group>"; };
+		D368482216FCCAC500D0410F /* FriendListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FriendListViewController.m; path = Jarrive/ViewControllers/FriendListViewController.m; sourceTree = "<group>"; };
 		D368482616FCD32D00D0410F /* FriendLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FriendLocation.h; path = Model/FriendLocation.h; sourceTree = "<group>"; };
 		D368482716FCD32D00D0410F /* FriendLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FriendLocation.m; path = Model/FriendLocation.m; sourceTree = "<group>"; };
 		D368482916FCD3A200D0410F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -61,6 +62,8 @@
 		D368482F16FCD46D00D0410F /* FriendManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FriendManager.m; path = Model/FriendManager.m; sourceTree = "<group>"; };
 		D368483116FCDA9E00D0410F /* ArrivalManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArrivalManager.h; path = Jarrive/Arrival/ArrivalManager.h; sourceTree = "<group>"; };
 		D368483216FCDA9E00D0410F /* ArrivalManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArrivalManager.m; path = Jarrive/Arrival/ArrivalManager.m; sourceTree = "<group>"; };
+		D368483516FCDE7900D0410F /* FriendLocationListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FriendLocationListViewController.h; path = Jarrive/ViewControllers/FriendLocationListViewController.h; sourceTree = "<group>"; };
+		D368483616FCDE7900D0410F /* FriendLocationListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FriendLocationListViewController.m; path = Jarrive/ViewControllers/FriendLocationListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,8 +149,10 @@
 		D368482416FCCAD200D0410F /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				D368482116FCCAC500D0410F /* FriendTableViewController.h */,
-				D368482216FCCAC500D0410F /* FriendTableViewController.m */,
+				D368482116FCCAC500D0410F /* FriendListViewController.h */,
+				D368482216FCCAC500D0410F /* FriendListViewController.m */,
+				D368483516FCDE7900D0410F /* FriendLocationListViewController.h */,
+				D368483616FCDE7900D0410F /* FriendLocationListViewController.m */,
 			);
 			name = ViewControllers;
 			path = ..;
@@ -245,11 +250,12 @@
 			files = (
 				637FE9A816AB4BB2002C46ED /* main.m in Sources */,
 				637FE9AC16AB4BB2002C46ED /* AppDelegate.m in Sources */,
-				D368482316FCCAC500D0410F /* FriendTableViewController.m in Sources */,
+				D368482316FCCAC500D0410F /* FriendListViewController.m in Sources */,
 				D368482816FCD32D00D0410F /* FriendLocation.m in Sources */,
 				D368482D16FCD3D800D0410F /* Friend.m in Sources */,
 				D368483016FCD46D00D0410F /* FriendManager.m in Sources */,
 				D368483316FCDA9E00D0410F /* ArrivalManager.m in Sources */,
+				D368483716FCDE7900D0410F /* FriendLocationListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
