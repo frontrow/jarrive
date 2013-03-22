@@ -19,6 +19,7 @@
 		637FE9AE16AB4BB2002C46ED /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 637FE9AD16AB4BB2002C46ED /* Default.png */; };
 		637FE9B016AB4BB2002C46ED /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 637FE9AF16AB4BB2002C46ED /* Default@2x.png */; };
 		637FE9B216AB4BB2002C46ED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 637FE9B116AB4BB2002C46ED /* Default-568h@2x.png */; };
+		AA9D7A8416FCE9AF00DD7468 /* ArrivalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9D7A8316FCE9AF00DD7468 /* ArrivalViewController.m */; };
 		D368482316FCCAC500D0410F /* FriendListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D368482216FCCAC500D0410F /* FriendListViewController.m */; };
 		D368482816FCD32D00D0410F /* FriendLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = D368482716FCD32D00D0410F /* FriendLocation.m */; };
 		D368482A16FCD3A200D0410F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D368482916FCD3A200D0410F /* CoreLocation.framework */; };
@@ -50,6 +51,8 @@
 		637FE9AD16AB4BB2002C46ED /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		637FE9AF16AB4BB2002C46ED /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		637FE9B116AB4BB2002C46ED /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AA9D7A8216FCE9AF00DD7468 /* ArrivalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArrivalViewController.h; path = Jarrive/ViewControllers/ArrivalViewController.h; sourceTree = "<group>"; };
+		AA9D7A8316FCE9AF00DD7468 /* ArrivalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArrivalViewController.m; path = Jarrive/ViewControllers/ArrivalViewController.m; sourceTree = "<group>"; };
 		D368482116FCCAC500D0410F /* FriendListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FriendListViewController.h; path = Jarrive/ViewControllers/FriendListViewController.h; sourceTree = "<group>"; };
 		D368482216FCCAC500D0410F /* FriendListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FriendListViewController.m; path = Jarrive/ViewControllers/FriendListViewController.m; sourceTree = "<group>"; };
 		D368482616FCD32D00D0410F /* FriendLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FriendLocation.h; path = Model/FriendLocation.h; sourceTree = "<group>"; };
@@ -154,6 +157,8 @@
 		D368482416FCCAD200D0410F /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				AA9D7A8216FCE9AF00DD7468 /* ArrivalViewController.h */,
+				AA9D7A8316FCE9AF00DD7468 /* ArrivalViewController.m */,
 				D368482116FCCAC500D0410F /* FriendListViewController.h */,
 				D368482216FCCAC500D0410F /* FriendListViewController.m */,
 				D368483516FCDE7900D0410F /* FriendLocationListViewController.h */,
@@ -266,6 +271,7 @@
 				D368483316FCDA9E00D0410F /* ArrivalManager.m in Sources */,
 				D368483716FCDE7900D0410F /* FriendLocationListViewController.m in Sources */,
 				D368484016FCE4F600D0410F /* PinDropViewController.m in Sources */,
+				AA9D7A8416FCE9AF00DD7468 /* ArrivalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
