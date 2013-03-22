@@ -17,6 +17,10 @@
 		637FE9B016AB4BB2002C46ED /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 637FE9AF16AB4BB2002C46ED /* Default@2x.png */; };
 		637FE9B216AB4BB2002C46ED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 637FE9B116AB4BB2002C46ED /* Default-568h@2x.png */; };
 		D368482316FCCAC500D0410F /* FriendTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D368482216FCCAC500D0410F /* FriendTableViewController.m */; };
+		D368482816FCD32D00D0410F /* FriendLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = D368482716FCD32D00D0410F /* FriendLocation.m */; };
+		D368482A16FCD3A200D0410F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D368482916FCD3A200D0410F /* CoreLocation.framework */; };
+		D368482D16FCD3D800D0410F /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = D368482C16FCD3D800D0410F /* Friend.m */; };
+		D368483016FCD46D00D0410F /* FriendManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D368482F16FCD46D00D0410F /* FriendManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +39,13 @@
 		637FE9B116AB4BB2002C46ED /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D368482116FCCAC500D0410F /* FriendTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FriendTableViewController.h; path = Jarrive/ViewControllers/FriendTableViewController.h; sourceTree = "<group>"; };
 		D368482216FCCAC500D0410F /* FriendTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FriendTableViewController.m; path = Jarrive/ViewControllers/FriendTableViewController.m; sourceTree = "<group>"; };
+		D368482616FCD32D00D0410F /* FriendLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FriendLocation.h; path = Model/FriendLocation.h; sourceTree = "<group>"; };
+		D368482716FCD32D00D0410F /* FriendLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FriendLocation.m; path = Model/FriendLocation.m; sourceTree = "<group>"; };
+		D368482916FCD3A200D0410F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D368482B16FCD3D800D0410F /* Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Friend.h; path = Model/Friend.h; sourceTree = "<group>"; };
+		D368482C16FCD3D800D0410F /* Friend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Friend.m; path = Model/Friend.m; sourceTree = "<group>"; };
+		D368482E16FCD46D00D0410F /* FriendManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FriendManager.h; path = Model/FriendManager.h; sourceTree = "<group>"; };
+		D368482F16FCD46D00D0410F /* FriendManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FriendManager.m; path = Model/FriendManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D368482A16FCD3A200D0410F /* CoreLocation.framework in Frameworks */,
 				637FE99C16AB4BB2002C46ED /* UIKit.framework in Frameworks */,
 				637FE99E16AB4BB2002C46ED /* Foundation.framework in Frameworks */,
 				637FE9A016AB4BB2002C46ED /* CoreGraphics.framework in Frameworks */,
@@ -71,6 +83,7 @@
 		637FE99A16AB4BB2002C46ED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D368482916FCD3A200D0410F /* CoreLocation.framework */,
 				637FE99B16AB4BB2002C46ED /* UIKit.framework */,
 				637FE99D16AB4BB2002C46ED /* Foundation.framework */,
 				637FE99F16AB4BB2002C46ED /* CoreGraphics.framework */,
@@ -81,6 +94,7 @@
 		637FE9A116AB4BB2002C46ED /* Jarrive */ = {
 			isa = PBXGroup;
 			children = (
+				D368482516FCD2CA00D0410F /* Model */,
 				D368482416FCCAD200D0410F /* ViewControllers */,
 				637FE9AA16AB4BB2002C46ED /* AppDelegate.h */,
 				637FE9AB16AB4BB2002C46ED /* AppDelegate.m */,
@@ -111,6 +125,19 @@
 			);
 			name = ViewControllers;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		D368482516FCD2CA00D0410F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D368482B16FCD3D800D0410F /* Friend.h */,
+				D368482C16FCD3D800D0410F /* Friend.m */,
+				D368482616FCD32D00D0410F /* FriendLocation.h */,
+				D368482716FCD32D00D0410F /* FriendLocation.m */,
+				D368482E16FCD46D00D0410F /* FriendManager.h */,
+				D368482F16FCD46D00D0410F /* FriendManager.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +208,9 @@
 				637FE9A816AB4BB2002C46ED /* main.m in Sources */,
 				637FE9AC16AB4BB2002C46ED /* AppDelegate.m in Sources */,
 				D368482316FCCAC500D0410F /* FriendTableViewController.m in Sources */,
+				D368482816FCD32D00D0410F /* FriendLocation.m in Sources */,
+				D368482D16FCD3D800D0410F /* Friend.m in Sources */,
+				D368483016FCD46D00D0410F /* FriendManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
