@@ -29,6 +29,8 @@
 		D368483B16FCE0CA00D0410F /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D368483816FCE0CA00D0410F /* FacebookSDK.framework */; };
 		D368483C16FCE0CB00D0410F /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D368483916FCE0CA00D0410F /* FacebookSDKResources.bundle */; };
 		D368483D16FCE0CB00D0410F /* FBUserSettingsViewResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D368483A16FCE0CA00D0410F /* FBUserSettingsViewResources.bundle */; };
+		D368484016FCE4F600D0410F /* PinDropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D368483F16FCE4F600D0410F /* PinDropViewController.m */; };
+		D368484416FCE70600D0410F /* WhereamiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D368484316FCE70600D0410F /* WhereamiViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +66,9 @@
 		D368483816FCE0CA00D0410F /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = Frameworks/FacebookSDK.framework; sourceTree = "<group>"; };
 		D368483916FCE0CA00D0410F /* FacebookSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FacebookSDKResources.bundle; path = Frameworks/FacebookSDKResources.bundle; sourceTree = "<group>"; };
 		D368483A16FCE0CA00D0410F /* FBUserSettingsViewResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FBUserSettingsViewResources.bundle; path = Frameworks/FBUserSettingsViewResources.bundle; sourceTree = "<group>"; };
+		D368483E16FCE4F600D0410F /* PinDropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PinDropViewController.h; path = Jarrive/ViewControllers/PinDropViewController.h; sourceTree = "<group>"; };
+		D368483F16FCE4F600D0410F /* PinDropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PinDropViewController.m; path = Jarrive/ViewControllers/PinDropViewController.m; sourceTree = "<group>"; };
+		D368484316FCE70600D0410F /* WhereamiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WhereamiViewController.xib; path = Jarrive/ViewControllers/WhereamiViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +158,9 @@
 				D368482216FCCAC500D0410F /* FriendListViewController.m */,
 				D368483516FCDE7900D0410F /* FriendLocationListViewController.h */,
 				D368483616FCDE7900D0410F /* FriendLocationListViewController.m */,
+				D368484316FCE70600D0410F /* WhereamiViewController.xib */,
+				D368483E16FCE4F600D0410F /* PinDropViewController.h */,
+				D368483F16FCE4F600D0410F /* PinDropViewController.m */,
 			);
 			name = ViewControllers;
 			path = ..;
@@ -238,6 +246,7 @@
 				637FE9B216AB4BB2002C46ED /* Default-568h@2x.png in Resources */,
 				D368483C16FCE0CB00D0410F /* FacebookSDKResources.bundle in Resources */,
 				D368483D16FCE0CB00D0410F /* FBUserSettingsViewResources.bundle in Resources */,
+				D368484416FCE70600D0410F /* WhereamiViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +265,7 @@
 				D368483016FCD46D00D0410F /* FriendManager.m in Sources */,
 				D368483316FCDA9E00D0410F /* ArrivalManager.m in Sources */,
 				D368483716FCDE7900D0410F /* FriendLocationListViewController.m in Sources */,
+				D368484016FCE4F600D0410F /* PinDropViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

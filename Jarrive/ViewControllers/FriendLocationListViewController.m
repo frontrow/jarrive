@@ -9,6 +9,7 @@
 #import "FriendLocationListViewController.h"
 #import "Friend.h"
 #import "FriendLocation.h"
+#import "PinDropViewController.h"
 @interface FriendLocationListViewController ()
 -(void)showNewLocation;
 @end
@@ -32,8 +33,19 @@
     
 }
 
+-(void)pinDroppedAtCoordinate:(CLLocationCoordinate2D)coordinate{
+    NSLog(@"Pin dropped");
+    [self.navigationController dismissViewControllerAnimated:YES completion:nil];
+}
+
 -(void)showNewLocation{
-    NSLog(@"Hi!");
+    PinDropViewController *pdvc = [[PinDropViewController alloc] initWithNibName:@"WhereamiViewController.xib" bundle:nil];
+    pdvc.delegate = self;
+    UINavigationController *navCon = [[UINavigationController alloc] initWithRootViewController:pdvc];
+    [self.navigationController presentViewController:navCon
+                                            animated:YES
+                                          completion:nil];
+    
 }
 
 #pragma mark - Table view data source

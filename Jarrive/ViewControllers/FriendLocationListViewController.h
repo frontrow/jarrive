@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PinDropViewController.h"
 @class Friend;
-@interface FriendLocationListViewController : UITableViewController{
+@interface FriendLocationListViewController : UITableViewController<PinDropDelegate>{
     Friend *_friend;
 }
 
