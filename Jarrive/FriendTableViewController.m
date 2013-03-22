@@ -22,6 +22,12 @@
     self = [super initWithStyle:style];
     if (self) {
         // Custom initialization
+        //inits _friends to an array of size 4 with 4 "friend objects" which currently are just ID's
+        for(int i=0;i<4;i++){
+            userFriendObj *tempFriend=[[userFriendObj alloc]initWithID:i];
+           [_friends addObject:(userFriendObj*) tempFriend];
+            
+        }
     }
     return self;
 }
@@ -49,6 +55,9 @@
 {
 #warning Potentially incomplete method implementation.
     // Return the number of sections.
+    if(tableView){
+        return _friends.count;//number of sections should corrospond to number of friends, right?
+    }
     return 0;
 }
 
