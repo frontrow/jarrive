@@ -8,6 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ArrivalViewController : UIViewController
+@interface ArrivalViewController : UIViewController{
+    BOOL *_status;
+    NSString *_statusLabel;
+    UIButton *_cancelButton;
+}
+
+@property(readonly) BOOL *status;
+@property(readonly) NSString *statusLabel;
+@property UIButton *cancelButton;
+
+- (id)initWithBOOL:(BOOL *)aBOOL andTitle:(NSString *)titleName;
+- (void)loadView;
+- (void)cancelArrival:(BOOL)pressedCancel;
+- (void)notThereYetAnimation:(BOOL)notThereYet;
 
 @end

@@ -14,25 +14,49 @@
 
 @implementation ArrivalViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
+@synthesize status = _status;
+@synthesize statusLabel = _statusLabel;
+@synthesize cancelButton = _cancelButton;
+
+- (id)initWithBool:(BOOL *)aBOOL andTitle:(NSString *)titleName{
+    self = [super init];
+    if(self){
+        [self setTitle:titleName];
+        _status = aBOOL;
+        
+    //Setting Status Label
+        if(_status){
+            _statusLabel = @"Your ride has arrived!";
+            [self cancelArrival:YES];
+        } else{
+          _statusLabel = @"Still not there yet!";
+            [self notThereYetAnimation:YES];
+        }
     }
     return self;
 }
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view.
+#warning button not connected to anything yet (easiest done with storyboard)
+- (void)loadView {
+    //load other stuff
+    _cancelButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)cancelArrival:(BOOL)pressedCancel {
+    if(pressedCancel){
+        _statusLabel = @"Arrival has been cancelled.";
+        //do something to cancel the arrival
+    }
 }
+
+- (void)notThereYetAnimation:(BOOL)notArrived {
+    if(notArrived){
+        //animation effect, or just do something else
+    }
+    else{
+        [self cancelArrival:YES];
+    }
+}
+
 
 @end
